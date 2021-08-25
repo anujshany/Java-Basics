@@ -1,6 +1,7 @@
 package com.variables;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 
 public class Main {
@@ -19,15 +20,15 @@ public class Main {
                 // double -8
                 // char -2 a,b,c,d
                 // boolean -1 true/false
-                byte age = 19;
-                int phone = 1234567890;
+                //byte age = 19;**
+                //int phone = 1234567890;**
                 // L for long
-                long phone2 = 12345678900L;
+                //long phone2 = 12345678900L;**
                 // F for float
-                float pi = 3.14F;
+                //float pi = 3.14F;**
                 // L and F helps java interpret the declaration easily
-                char letter = 'a';
-                boolean isAdult = true;
+                //char letter = 'a';**
+                //boolean isAdult = true;**
             }
 
 
@@ -84,6 +85,7 @@ public class Main {
                 // if we do this it'll print 84 as it is the first element of second array
                     //System.out.println(finalMarks[1][0]); **
             }
+
             {   //Casting is a concept of java
                 double price = 100.00;
                 double finalPrice = price + 18; // --> here in last we are adding 18 which is int this is implicit casting
@@ -107,6 +109,7 @@ public class Main {
                 // we cannot convert string into int
 
             }
+
             {
                 //Constants
                 int Age= 30;
@@ -117,6 +120,7 @@ public class Main {
                 final float PI = 3.14F;
                 // Now this value cannot be changed
             }
+
             {
                 //Operators
                 // 4 types of operator exist in java
@@ -143,6 +147,7 @@ public class Main {
                 double modulo = a % b;
                 //System.out.println(modulo);**
             }
+
             {
                 //Assignment Operators
                 // we've used assignment operators till now --> = is the operator
@@ -150,6 +155,7 @@ public class Main {
                 // we here use the operator to assign a value to X and we've given it the value 5
                 //System.out.println(X);**
             }
+
             {
                 //Unary Operator
                 int numb = 1;
@@ -171,6 +177,7 @@ public class Main {
                 // as we use ++ we can use -- too if required
 
             }
+
             {
                 //Maths
                 // let's assume we have 5 and 6 we want to find the max value from it
@@ -190,8 +197,60 @@ public class Main {
                 // but if we need a random int we can do the following
                 //System.out.println((int)(Math.random()*100));**  //--> this will give us the value multiplied by 100 which
                 // will be converted into int because we did explicit casting
+            }
+
+            {
+                //Taking Input
+                Scanner sc = new Scanner(System.in); //--> sc input object
+                //System.out.println("Input Your Age :");**
+                //int age = sc.nextInt();** //--> used nextInt as we assign a Int value to the input object declared
+                //System.out.println(age);**
+
+                // Doing the same but just with float
+                Scanner flt = new Scanner(System.in); //--> flt input object
+                //System.out.println("Input Your Age :");**
+                //float age = flt.nextFloat();88
+                //System.out.println(age);**
+
+                //There are multiple values we can use for input but here we'll focus on some major part here
+
+                //String Input
+                //Scanner str = new Scanner(System.in);
+                //System.out.println("Input Your Name : ");**
+                //String name = str.next();** // --> this only takes input of tokens(one word) not a whole line
+                //System.out.println(name);**
+
+                //Sentence Input
+                Scanner sent = new Scanner(System.in);
+                //System.out.println("Input Your Line : ");**
+                //String sentence =sent.nextLine();**
+                //System.out.println(sentence);**
+
+            }
+
+            {
+                //Comparison Operators -->
+                // a == b --> is equal
+                // a != b --> is not equal
+                // a < b --> less than
+                // a > b --> greater than
+                // a <= b --> less than equal to
+                // a >= b --> greater than equal to
+            }
+            {
+                //Conditional Statements
+                boolean isSunUp = false; //--> declaring a false boolean and checking it through a conditional Statement
+                //if(isSunUp==true)**
+                    //System.out.println("Day");**
+                //else**
+                    //System.out.println("Night");**
 
 
+                int AGE = 21; //--> setting checks for if else
+                //if (AGE>18)**
+                    //System.out.println("Can Vote");**
+                //else**
+                    //System.out.println("Can't Vote");**
             }
         }
     }
