@@ -21,8 +21,11 @@ public class Main {
                 // boolean -1 true/false
                 byte age = 19;
                 int phone = 1234567890;
+                // L for long
                 long phone2 = 12345678900L;
+                // F for float
                 float pi = 3.14F;
+                // L and F helps java interpret the declaration easily
                 char letter = 'a';
                 boolean isAdult = true;
             }
@@ -106,6 +109,21 @@ public class Main {
             }
             {
                 //Constants
+                int Age= 30;
+                Age = 31;
+                // above is a example of that this is not a constant in java
+
+                // PI value should be constant value which we do by
+                final float PI = 3.14F;
+                // Now this value cannot be changed
+            }
+            {
+                //Operators
+                // 4 types of operator exist in java
+                // Arithmetic Operators
+                // Assignment Operators
+                // Logical Operators
+                // Comparison Operators
             }
         }
     }
