@@ -120,10 +120,78 @@ public class Main {
             {
                 //Operators
                 // 4 types of operator exist in java
-                // Arithmetic Operators
+                // Arithmetic Operators = maths operators
                 // Assignment Operators
                 // Logical Operators
                 // Comparison Operators
+
+                // Demonstration of + as A Arithmetic Operators
+                double a = 1;
+                double b = 2;
+                double sum = a+b;
+                //System.out.println(sum);**
+                // Demonstration of - as A Arithmetic Operator
+                double diff = a-b;
+                //System.out.println(diff);**
+                // Demonstration of * as A Arithmetic Operator
+                double mul = a*b;
+                //System.out.println(mul);**
+                // Demonstration of * as A Arithmetic Operator
+                double div = a/b;
+                //System.out.println(div);**
+                // using the modulo Arithmetic Operator --> it will basically give us the remainder of the division
+                double modulo = a % b;
+                //System.out.println(modulo);**
+            }
+            {
+                //Assignment Operators
+                // we've used assignment operators till now --> = is the operator
+                int X = 5;
+                // we here use the operator to assign a value to X and we've given it the value 5
+                //System.out.println(X);**
+            }
+            {
+                //Unary Operator
+                int numb = 1;
+                //numb = numb +1;**
+                // this can also be re-written as
+                //numb++;**
+                // there is one thing to understand here the placement of ++
+                // if it is numb++ then it'll be like
+
+                //System.out.println(numb++);** //--> 1
+                //System.out.println(numb);**  // --> 2
+
+                // and if it is ++numb then
+                //System.out.println(++numb); //--> 2
+                //System.out.println(numb);  //--2
+
+                // the basic difference can be that when we do numb++ it'll change the value next time we call it
+                // but when we do ++numb it'll instantly change the value of numb
+                // as we use ++ we can use -- too if required
+
+            }
+            {
+                //Maths
+                // let's assume we have 5 and 6 we want to find the max value from it
+                //System.out.println(Math.max(5,6));**  //--> we use Math.max for the same
+
+                // and if we want to find the minimum of the same we will do
+                //System.out.println(Math.min(5,6));**
+
+                //this is majorly used when we are implementing Data-Structures and Algorithms with Java
+
+                // random --> this gives us a random value between 0.0 and 1.0 in the long form as default
+                //System.out.println(Math.random());**
+
+                // we can use typecasting for the same but in a explicit manner
+                //System.out.println((int)Math.random());** //--> this will always give us value as 0
+
+                // but if we need a random int we can do the following
+                //System.out.println((int)(Math.random()*100));**  //--> this will give us the value multiplied by 100 which
+                // will be converted into int because we did explicit casting
+
+
             }
         }
     }
