@@ -251,7 +251,70 @@ public class Main {
                     //System.out.println("Can Vote");**
                 //else**
                     //System.out.println("Can't Vote");**
+
+
             }
+
+            {
+                //Logical Operators
+                // && --> And operator in which even if one parameter is false the whole outcome will be false
+
+                int a = 58;
+                int b = 48;
+
+                //if(a < 50 && b < 50)** // --> here using AND operator we check both parameters
+                    //System.out.println("Both Less Than 50"); **
+
+                // || --> logical OR operator this checks for one parameter to be true and outcome will be false
+                 //if(a < 50 || b <50)**
+                     //System.out.println("At least Less Than 50");**
+
+                // ! --> NOT operator
+                boolean isAdult = false;
+                //if (!isAdult)** // --> using ! in the if statement changes it to check it for false statement and if we just do
+                              // if(isAdult) this will check for true condition only
+                    //System.out.println("is Adult");**
+                //else**
+                    //System.out.println("Not Adult");**
+
+                // we use this negation operator if we want to explicitly check for conditions if they are true or false
+            }
+            {
+                //Working of Conditional Statements
+                Scanner sc = new Scanner(System.in);
+                // cost of pen = 10 , notebook = 40
+                //int cash = sc.nextInt();**
+                //if(cash < 10){**
+                    //System.out.println("Cannot buy anything");**
+                    //System.out.println("Get more cash");**
+                //}**
+                //else if (cash > 10 && cash < 50 ){**
+                    //System.out.println("Can purchase 1 thing");**
+                //}**
+                //else {**
+                    //System.out.println("Can Get Both");**
+                //}**
+
+            }
+            {
+                // Conditional Statements - SWITCH
+                // takes one value and checks multiple conditions on that basis
+                int day = 1; // 1 - monday and so on
+                // inside SWITCH, we have cases
+
+                switch (day){
+                    case 1 : //--> if value of day is 1 then this case will be applied
+                        System.out.println("Monday");
+                        break; // --> we use this to breakout of the function otherwise all other statements will get printed too
+                    case 2 : // --> if value is 2 we do this
+                        System.out.println("Tuesday");
+                        break;
+                    default: //--> else any other value we implement this default
+                        System.out.println("Wednesday -- Sunday");
+                }
+            }
+
+        }
         }
     }
-}
+
