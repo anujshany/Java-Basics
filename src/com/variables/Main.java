@@ -5,6 +5,16 @@ import java.util.Scanner;
 
 
 public class Main {
+    // Complete Exception Handling before coming to this part
+    //Methods/Functions
+    // Methods basically are functions declared in a class
+    // we create methods for repetitive actions
+    // we create methods like this
+    // this function is accessed on the line no 407-409
+    public static void printJava(){
+        System.out.println("Hello Java");
+    }
+
 
     public static void main(String[] args) {
         {   // uncomment the lines in-front of which ** are there when you're at that part and make sure to re-comment
@@ -345,22 +355,65 @@ public class Main {
               }
               {
                   //Implementation of Loops
-                  Scanner sc = new Scanner(System.in);
-                  int number = 0;
-                  do{
-                      System.out.println("Input a number : ");
-                      number = sc.nextInt();
-                      System.out.print("Here is your number : ");
-                      System.out.println(number);
-                  }while (number >= 0);
-                  System.out.println("Number is negative THE END");
+                  //Scanner sc = new Scanner(System.in);**
+                  //int number = 0;**
+                  //do{**
+                      //System.out.println("Input a number : ");**
+                      //number = sc.nextInt();**
+                      //System.out.print("Here is your number : ");**
+                      //System.out.println(number);**
+                  //}while (number >= 0);**
+                  //System.out.println("Number is negative THE END");**
 
               }
 
+              {
+                  //Break and Continue
+                  //int i = 0;
+                  //while(true){
+                      //if(i == 3){**//--> this here means that we dont want 3 to get printed so what we do is use
+                          // continue keyword, and we increment the value of i because if we do not update it it'll
+                          // remain stuck at 3 only
+                          //i++;**
+                          //continue;**
+                      //}**
+                      //System.out.println(i);**
+                      //i++;**
+                      //if(i > 5){**
+                          //break;**
+                      //}**
 
+                      //if the while loop is set to true it will run for infinite times
+                      // to exit out of it we use break; statements
+                  }
+
+                  {
+                    //EXCEPTION HANDLING
+                    // exceptions are written in the code by the programmer due to some silly mistakes
+                    // for this we use try and catch
+                    int[] marks ={99,85,96};
+                    //System.out.println(marks[5]);**//--> here we are trying to access the bound outside the array
+                    //System.out.println("The Student Name is Anuj");** //--> this will not execute due to the exception
+                    // so we use try catch block
+                        //try {** // declared in this because if there is a chance of error this won't crash the whole
+                      // file
+                            //System.out.println(marks[5]);**
+                        //} catch (Exception exception){**
+                            // here we write arguments that we want to execute after catching the exception
+
+                        //}**
+                      //System.out.println("The Name of Student is Anuj");**
+                  }
             }
+            printJava();
+            printJava();
+            printJava();
+    }
 
-        }
+
+
+
 }
+
 
 
