@@ -296,25 +296,71 @@ public class Main {
                 //}**
 
             }
-            {
+              {
                 // Conditional Statements - SWITCH
                 // takes one value and checks multiple conditions on that basis
                 int day = 1; // 1 - monday and so on
                 // inside SWITCH, we have cases
 
-                switch (day){
-                    case 1 : //--> if value of day is 1 then this case will be applied
-                        System.out.println("Monday");
-                        break; // --> we use this to breakout of the function otherwise all other statements will get printed too
-                    case 2 : // --> if value is 2 we do this
-                        System.out.println("Tuesday");
-                        break;
-                    default: //--> else any other value we implement this default
-                        System.out.println("Wednesday -- Sunday");
-                }
+                //switch (day){**
+                    //case 1 :** //--> if value of day is 1 then this case will be applied
+                        //System.out.println("Monday");**
+                        //break;** // --> we use this to breakout of the function otherwise all other statements will get printed too
+                    //case 2 :** // --> if value is 2 we do this
+                        //System.out.println("Tuesday");**
+                        //break;**
+                    //default:** //--> else any other value we implement this default
+                        //System.out.println("Wednesday -- Sunday");**
+              }
+              {
+                  //Loops
+                  // 3 types of loops
+                  // for loops
+                  // do while loops
+                  // while loops
+
+                  //FOR LOOP --> 1 to 100
+                  //for(int i = 1; i <=100; i++ ){**
+                      //System.out.println(i);**
+                  //}**
+                  //FOR LOOP --> 100 to 1
+                  //for(int i = 100; i >=1; i--){**
+                      //System.out.println(i);**
+                  //}**
+
+                  //WHILE LOOP
+                  //int j = 101;**
+                  //while(j>= 1){**
+                      //System.out.println(j);**
+                      //j--;**
+                  //}**
+
+                  // DO WHILE LOOP
+                    //int k = 100;**
+                    //do{**
+                        //System.out.println(k);**
+                        //k--;**
+                    //} while (k >= 1);**
+
+              }
+              {
+                  //Implementation of Loops
+                  Scanner sc = new Scanner(System.in);
+                  int number = 0;
+                  do{
+                      System.out.println("Input a number : ");
+                      number = sc.nextInt();
+                      System.out.print("Here is your number : ");
+                      System.out.println(number);
+                  }while (number >= 0);
+                  System.out.println("Number is negative THE END");
+
+              }
+
+
             }
 
         }
-        }
-    }
+}
+
 
