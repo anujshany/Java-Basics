@@ -14,7 +14,8 @@ public class Main {
     public static void printJava(){
         System.out.println("Hello Java");
     }
-
+    // This commences our java basics check the mini project folder for the project and before implementing it
+    // try to understand it
 
     public static void main(String[] args) {
         {   // uncomment the lines in-front of which ** are there when you're at that part and make sure to re-comment
